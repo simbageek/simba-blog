@@ -8,7 +8,7 @@ open_graph:
   #fb_app_id:
 
 # Assets
-statics: / #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
+statics: //cdn.jsdelivr.net/gh/simbageek/simba-note-deploy@latest/ #//cdn.jsdelivr.net/gh/username/RepositoryName@latest/
 css: css
 js: js
 images: images
