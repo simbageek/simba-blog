@@ -13,9 +13,9 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :title/ # edit for Theme.shoka
+# url: https://879226489.github.io
+# root: /simba-blog/
+# permalink: :year/:month/:day/:title/
 permalink_defaults:
 
 # Directory
@@ -79,8 +79,16 @@ theme: shoka # edit for Theme.shoka
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/879226489/simba-blog.git
+  branch: master
 
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # edit for Theme.shoka
 autoprefixer:
